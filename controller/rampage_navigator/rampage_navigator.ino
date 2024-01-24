@@ -1,4 +1,4 @@
-#include <BleKeyboard.h>
+#include <BleKeyboardBeta.h>
 
 #define led 32
 
@@ -39,10 +39,10 @@ void setup() {
 void loop() {
   if (millis() - debounce1 > lag) {
     if (digitalRead(button4) == LOW) {
-      bleKeyboard.write(KEY_MEDIA_PREVIOUS_TRACK);
+      bleKeyboard.print("=");
     }
     if (digitalRead(button5) == LOW) {
-      bleKeyboard.write(KEY_MEDIA_NEXT_TRACK);
+      bleKeyboard.print("-");
     }
     debounce1 = millis();
   }
@@ -51,11 +51,11 @@ void loop() {
     buttonOnePressed = false;
   }
   if (buttonTwoPressed) {
-    bleKeyboard.write(KEY_MEDIA_VOLUME_UP);
+    bleKeyboard.write(KEY_UP_ARROW);
     buttonTwoPressed = false;
   }
   if (buttonThreePressed) {
-    bleKeyboard.write(KEY_MEDIA_VOLUME_DOWN);
+    bleKeyboard.write(KEY_DOWN_ARROW);
     buttonThreePressed = false;
   }
 }
