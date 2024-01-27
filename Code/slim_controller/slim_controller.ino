@@ -39,10 +39,10 @@ void setup() {
 void loop() {
   if (millis() - debounce1 > lag) {
     if (digitalRead(button4) == LOW) {
-      bleKeyboard.print("=");
+      bleKeyboard.write(KEY_MEDIA_VOLUME_UP);
     }
     if (digitalRead(button5) == LOW) {
-      bleKeyboard.print("-");
+      bleKeyboard.write(KEY_MEDIA_VOLUME_DOWN);
     }
     debounce1 = millis();
   }
