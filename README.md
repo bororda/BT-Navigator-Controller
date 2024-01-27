@@ -6,13 +6,15 @@ Current models are designed to be mounted over the grips, i.e. no manipulation w
 
 Right now there're two versions:
 1. **V1** which is quite wide and eats up a lot of grip space, plus it's looking rather basic. Still functioning well, and if printed out of nylon is rigit as hell.
+![V1](Docs/Pics/V1/1.png "V1") ![V1](Docs/Pics/V1/IMG_2272.jpeg "V1 Assembled")
 2. **V2 aka Slim** redesigned controller. Also exploring the options to switch to a smaller board to improve the size of the board and battery box. Practically this is the second iteration.
+![Slim](Docs/Pics/slim/1.png "Slim")
 
 # Instructions
 ## How to assemble one
-1. Get the list of components listed in [MAC Parts](controller/Reference/parts.numbers) or [Excel Parts but w/o pics](controller/Reference/parts.xlsx)
-2. Order the 3D prints. Models located [here](controller/Reference/casing) - you gotta chose between the tested V1 and V2 Slim which is still in dev.
-3. Flash the board. V1 is based on ESP32 Wroom - a bigger board, but the wiring and the code should work fine. You'll need the [BLE lib](controller/Reference/lib/ESP32-BLE-Keyboard-master). V2 based on Seeed Xiao BLE nRF52840 is yet to come.
+1. Get the list of components listed in [MAC Parts](Docs/parts.numbers) or [Excel Parts but w/o pics](Docs/parts.xlsx)
+2. Order the 3D prints. Models located [here](Hardware/casing) - you gotta chose between the tested V1 and V2 Slim which is still in dev.
+3. Flash the board. V1 is based on ESP32 Wroom - a bigger board, but the wiring and the code should work fine. You'll need the [BLE lib](Code/ESP32-BLE-Keyboard-master). V2 based on Seeed Xiao BLE nRF52840 is yet to come.
 4. Assemble the project. You'll need a soldering iron!
 5. Turn the device on and connect it to your smartphone
 6. Configure the apps on the phone to react to the keys properly
