@@ -7,7 +7,7 @@ Current models are designed to be mounted over the grips, i.e. no manipulation w
 Right now there're two versions:
 1. **V1** which is quite wide and eats up a lot of grip space, plus it's looking rather basic. Still functioning well, and if printed out of nylon is rigit as hell.
 ![V1](Docs/Pics/V1/1.png "V1") ![V1](Docs/Pics/V1/IMG_2272.jpeg "V1 Assembled")
-2. **V2 aka Slim** redesigned controller. Also exploring the options to switch to a smaller board to improve the size of the board and battery box. Practically this is the second iteration.
+2. **V2 aka Slim** redesigned controller. Also exploring the options to switch to a smaller board (Seeed Studio XIAO nRF52840)[https://wiki.seeedstudio.com/XIAO_BLE/] to improve the size of the board and battery box. Practically this is the second iteration.
 ![Slim](Docs/Pics/slim/1.png "Slim")
 
 # Instructions
