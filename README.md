@@ -8,7 +8,7 @@ Right now there're two versions:
 1. **V1** which is quite wide and eats up a lot of grip space, plus it's looking rather basic. Still functioning well, and if printed out of nylon is rigit as hell.
 ![V1](Docs/Pics/V1/1.png "V1") ![V1](Docs/Pics/V1/IMG_2272.jpeg "V1 Assembled")
 2. **V2 aka Slim** redesigned controller. Still rigit, but signnificantly slimmer, with ergonomicly designed toggle switch position. Also exploring the options to switch to a smaller board (Seeed Studio XIAO nRF52840)[https://wiki.seeedstudio.com/XIAO_BLE/] to improve the size of the board and battery box.
-![Slim](Docs/Pics/slim/IMG_2290.jpeg "Slim")
+![Slim](Docs/Pics/slim/1.png "Slim model") ![Slim](Docs/Pics/slim/IMG_2290.jpeg "Slim Assembled")
 
 # Instructions
 ## How to assemble one
