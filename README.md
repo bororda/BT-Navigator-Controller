@@ -7,8 +7,8 @@ Current models are designed to be mounted over the grips, i.e. no manipulation w
 Right now there're two versions:
 1. **V1** which is quite wide and eats up a lot of grip space, plus it's looking rather basic. Still functioning well, and if printed out of nylon is rigit as hell.
 ![V1](Docs/Pics/V1/1.png "V1") ![V1](Docs/Pics/V1/IMG_2272.jpeg "V1 Assembled")
-2. **V2 aka Slim** redesigned controller. Also exploring the options to switch to a smaller board (Seeed Studio XIAO nRF52840)[https://wiki.seeedstudio.com/XIAO_BLE/] to improve the size of the board and battery box. Practically this is the second iteration.
-![Slim](Docs/Pics/slim/1.png "Slim")
+2. **V2 aka Slim** redesigned controller. Still rigit, but signnificantly slimmer, with ergonomicly designed toggle switch position. Also exploring the options to switch to a smaller board (Seeed Studio XIAO nRF52840)[https://wiki.seeedstudio.com/XIAO_BLE/] to improve the size of the board and battery box.
+![Slim](Docs/Pics/slim/IMG_2290.jpeg "Slim")
 
 # Instructions
 ## How to assemble one
@@ -32,7 +32,7 @@ Buttons cover the main functionality for the 2 anvigation apps that are the most
 
 ## Rally Roadbook Reader
 Work in progress.
-the solution is trivial: add a hardware switch and adjust the code to consider it. Depending on the switch state assign one keys map or another. Unfortunately there's no common solution for both navigation and rally roadbook as some keys are different, but the common keys do different things. RRR does not let other keys to be assigned in the app, or the author was not clever enough to finnd the hidden settings.
+the solution is trivial: add a hardware switch and adjust the code to switch the key mapping. Unfortunately there's no common solution for both navigation and rally roadbook as some keys are different, but the common keys do different things. RRR does not let other keys to be assigned in the app, or the author was not clever enough to finnd the hidden settings.
 
 ## OsmAnd Setup
 Follow the guide from the [official page](https://osmand.net/docs/user/map/interact-with-map/#external-input-device-buttons) to turn on the support of the External Input Devices. Also enable zoom in-out with volume buttons if you would like to use the controller together with other apps. If for any reason you would not want to do this last step, you would need to reconfigure the .ino sketch and adjust the code to send other keys.
